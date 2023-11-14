@@ -82,21 +82,36 @@ color: #fff;border-radius: 40px;}
     background-color: #017143;
     clip-path: circle(600px at right 800px);
 }
-/* Default styles for all screen sizes */
-body {
-    font-size: 16px;
-}
-
-/* Styles for screens up to 768px wide (small screens) */
 @media (max-width: 768px) {
-    body {
-        font-size: 14px;
+    section {
+        padding: 50px;
     }
-}
-
-/* Styles for screens from 769px to 1024px wide (medium screens) */
-@media (min-width: 769px) and (max-width: 1024px) {
-    /* Adjust styles for tablets */
+     header {
+        padding: 20px;
+    }
+     .content {
+        flex-direction: column-reverse;
+    }
+     .textbox {
+        max-width: 100%;
+    }
+     #main {
+        margin-top: 10px;
+    }
+     .startbucks {
+        justify-content: center; 
+        padding-right: 0; 
+        margin-top: 20px; 
+    }
+     .thumb {
+        bottom: 10px;
+    }
+    .thumb li img {
+        max-width: 40px;
+    }
+     .sci {
+        right: 10px;
+    }
 }
 
     
